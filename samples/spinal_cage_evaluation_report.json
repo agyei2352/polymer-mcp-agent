@@ -1,0 +1,51 @@
+{
+  "clinical_device": "Interbody Spinal Fusion Cage",
+  "primary_candidate_material": "PEEK",
+  "fda_regulatory_assessment": {
+    "fda_panel": "Orthopedic and Physical Medicine (OR)",
+    "device_class": "Class II / III (510(k) or PMA)",
+    "predicate_devices": [
+      {
+        "product_name": "Medtronic Capstone PEEK",
+        "k_number": "K072995",
+        "material": "PEEK (ASTM F2026)"
+      },
+      {
+        "product_name": "Stryker AVS PEEK Spacer",
+        "k_number": "K090623",
+        "material": "Radiolucent PEEK-OPTIMA"
+      }
+    ],
+    "regulatory_guidance": "Class II Special Controls Guidance: Intervertebral Body Fusion Device",
+    "key_concerns": [
+      "Subsidence into vertebral endplates",
+      "Modulus mismatch (stress shielding)",
+      "Osseointegration"
+    ]
+  },
+  "iso_10993_biocompatibility_audit": {
+    "material": "Polyether ether ketone (PEEK)",
+    "iso_10993_1_categorization": "Bone_Contact - Permanent Contact (>30 days)",
+    "compliance_summary": {
+      "Part 3 (Genotoxicity)": "Pass (Ames test negative)",
+      "Part 4 (Hemocompatibility)": "Pass (Implant non-hemolytic)",
+      "Part 5 (In vitro Cytotoxicity)": "Pass (L929 >95% viability)",
+      "Part 10 (Irritation & Sensitization)": "Pass (Zero irritation)",
+      "Part 11 (Systemic Toxicity)": "Pass (Biostable non-toxic)"
+    },
+    "recommendation": "Complies with biological evaluation safety parameters for orthopedic implantation."
+  },
+  "degradation_kinetics_evaluation": {
+    "material": "Polyether ether ketone (PEEK)",
+    "time_horizon_months": 36.0,
+    "remaining_mw_percent": 99.64,
+    "retained_modulus_gpa": 3.78,
+    "initial_modulus_gpa": 3.8,
+    "status": "Biostable"
+  },
+  "visual_deliverables": [
+    "samples/biomaterial_tradeoff_matrices.png"
+  ],
+  "conclusion": "PEEK demonstrates near-ideal elastic modulus (3.8 GPa) matching human cortical bone to prevent stress-shielding subsidence, with permanent biostability and full ISO 10993 clearance."
+}
+

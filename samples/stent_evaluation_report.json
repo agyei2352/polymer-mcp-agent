@@ -1,0 +1,59 @@
+{
+  "clinical_device": "Bioresorbable Vascular Coronary Scaffold",
+  "primary_candidate_material": "PLLA",
+  "fda_regulatory_assessment": {
+    "fda_panel": "Cardiovascular (CV)",
+    "device_class": "Class III (PMA Required)",
+    "predicate_devices": [
+      {
+        "product_name": "Abbott Absorb GT1 BVS",
+        "pma_number": "P150023",
+        "material": "PLLA backbone with PDLLA/everolimus coating"
+      },
+      {
+        "product_name": "Biotronik Magmaris",
+        "clearance": "CE Mark predicate",
+        "material": "Magnesium/PLLA hybrid"
+      }
+    ],
+    "regulatory_guidance": "FDA Non-Clinical Engineering Tests for Bioresorbable Vascular Scaffolds (2020 Guidance)",
+    "key_concerns": [
+      "Late scaffold thrombosis",
+      "Recoil resistance",
+      "Radial force maintenance during vascular remodeling"
+    ]
+  },
+  "iso_10993_biocompatibility_audit": {
+    "material": "Poly-L-lactic acid (PLLA)",
+    "iso_10993_1_categorization": "Circulating_Blood - Permanent Contact (>30 days)",
+    "compliance_summary": {
+      "Part 3 (Genotoxicity)": "Pass (Non-mutagenic)",
+      "Part 4 (Hemocompatibility)": "Pass (Low thrombogenicity)",
+      "Part 5 (In vitro Cytotoxicity)": "Pass (L929 >85% viability)",
+      "Part 10 (Irritation & Sensitization)": "Pass (Zero erythema score)",
+      "Part 11 (Systemic Toxicity)": "Pass (No acute systemic reaction)"
+    },
+    "required_standard_tests": [
+      "ISO 10993-3: Genotoxicity, Carcinogenicity, and Reproductive Toxicity",
+      "ISO 10993-4: Hemocompatibility Interactions with Blood",
+      "ISO 10993-5: In Vitro Cytotoxicity Assays",
+      "ISO 10993-10: Tests for Skin Sensitization and Irritation",
+      "ISO 10993-11: Systemic Toxicity Evaluations",
+      "ISO 10993-13/15: Identification and Quantification of Degradation Products"
+    ],
+    "recommendation": "Complies with biological evaluation safety parameters for FDA premarket notification."
+  },
+  "degradation_kinetics_evaluation": {
+    "material": "Poly-L-lactic acid (PLLA)",
+    "time_horizon_months": 18.0,
+    "remaining_mw_percent": 53.26,
+    "retained_modulus_gpa": 1.59,
+    "initial_modulus_gpa": 3.5,
+    "status": "Resorbing"
+  },
+  "visual_deliverables": [
+    "samples/biomaterial_tradeoff_matrices.png"
+  ],
+  "conclusion": "Candidate polymer 'PLLA' demonstrates acceptable biocompatibility under ISO 10993 with sufficient mechanical scaffolding modulus (1.59 GPa remaining at 18 months). Clearance pathway follows FDA Class III (PMA Required) guidelines."
+}
+
